@@ -1,0 +1,25 @@
+fire
+~This program is valid, 
+However, removing mission keyword from function definitions and calls can cause errors~
+int mission addNumbers(int num1, int num2) {
+    return num1 + num2;
+}
+
+void mission displayMessage(bool message) {
+    out(message);
+}
+
+int mission square(int base) {
+    return base ^ 2;
+}
+
+int mission main() {
+    int result = mission addNumbers(5, 3);
+    out(result);
+    mission displayMessage(true);
+    out(mission square(4));
+}
+
+mission main();
+
+stop

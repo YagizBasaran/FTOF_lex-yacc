@@ -1,0 +1,11 @@
+fire
+~ This is a comment testing the comment feature 
+The program give on error on line 8, because "ammo" keyword is missing.
+~
+int myVar1 = 10;
+bool myVar3 = true;
+ammo myAmmoArray = [5, 10, 15, 20];
+testAmmoArray = [40, [3,5], [3], 5];
+input(myVar1);
+out(myVar1);
+stop

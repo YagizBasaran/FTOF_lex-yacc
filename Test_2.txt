@@ -1,0 +1,32 @@
+fire
+~ 
+This program also gives error, on line 32
+because the last while loop is not closed by a curly braces(})
+~
+
+int mission test() {
+    bool bVal = 1;
+    int iVal = 3;
+    bool f = false;
+    return bVal + iVal;
+}
+
+ammo myAmmoArray = [5, 10, 15, 20];
+ammo b = [9, -2, -1];
+int c;
+int i = 0; 
+int j = 0;
+
+int a = mission test();
+
+while (i < 4) {
+    j = 0;
+    while (j < 3) {
+        out(myAmmoArray[i]);
+        out(b[j]);
+        out(c);
+	c = i + j;
+        j = j + 1;
+    }
+    i = i + 1;
+stop

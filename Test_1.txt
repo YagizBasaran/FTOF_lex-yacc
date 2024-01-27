@@ -1,0 +1,22 @@
+fire
+out ( "Please enter the values of x y z:"); 
+~Error on out, line2: 
+because the language does not support string values.
+~
+int x = 0;
+int y = 0;
+int z = 0;
+input ( x );
+input ( y );
+input ( z );
+
+if ( x == 0 || y == 0 || z == 0) {
+while ( x != 0 && y != 0 && z != 0) {
+input ( x );
+input ( y );
+input ( z );
+	}
+}
+out ( x * y * z );
+stop
+

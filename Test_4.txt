@@ -1,0 +1,17 @@
+fire
+int counter = 0;
+ ~ This program give error on line 6 because there is three "=" ~
+for (int i = 0; i < 10; i = i + 1) {
+    if (counter === 5) {
+        out("Counter reached 5!");
+    } else {
+        out("Counter is still increasing.");
+    }
+    counter = counter + 1;
+}
+
+while (counter => 0 && counter <= 10) {
+    out(counter);
+    counter = counter - 1;
+}
+stop
