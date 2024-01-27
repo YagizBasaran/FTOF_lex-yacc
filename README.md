@@ -5,7 +5,7 @@ Check out the report in order to find all definitions and BNF of the language .
 Grade: 99/100
 
 # Creators
-Süleyman Yağız Başaran \n
+Süleyman Yağız Başaran\
 Mustafa Kağan Özsoy
 
 ## How to build and start??
