@@ -13,5 +13,5 @@ Mustafa Kağan Özsoy
 * After opening the "Command Prompt":
 1. Type "lex FTOF_LEX.l", hit enter.
 2. Type "yacc FTOF_YACC.y", hit enter.
-3. Type "gcc -o my_program y.tab.c1 hit enter. (my_program is now the name of the runner).
-4. Type "./my_program <Test_1.txt" for observe the tests. You can always change the test number or even write your own FTOF programs.. 😁
+3. Type "gcc -o my_program y.tab.c1" hit enter. (my_program is now the name of the runner).
+4. Type "./my_program <Test_1.txt" for observing the tests. You can always change the test number or even write your own FTOF programs.. 😁
